@@ -1,3 +1,6 @@
-# web-sem3
+# Web Development 5th semester
+#### Peoschin Evgeniy M33001
+___
 
-Peoschin Evgeniy M33001
+Создание сайта для наблюдения за мониторингами различных веб сервисов,
+отображения алертов, дашбордов по приложениям, статуса liveliness и т.д.

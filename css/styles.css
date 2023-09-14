@@ -1,0 +1,19 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #C1C1C1;
+    color: #7b5ab4;
+    text-align: center;
+}
+
+.ascii_art {
+    font-family: monospace;
+    font-size: 8%;
+    color: #7b5ab4;
+}
