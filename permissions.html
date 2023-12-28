@@ -1,0 +1,62 @@
+<!DOCKTYPE HTML>
+<html>
+<head lang="en">
+    <title>The Monitoring</title>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Metrics,Alerts,Monitoring">
+    <meta name="description" content="Monitoring service">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="scripts/main.js" defer></script>
+    <script src="scripts/permissions.js" defer></script>
+</head>
+<body>
+<header>
+    <div style="margin-left: 1em">
+        <h1>The M<span style="color: #7b5ab4">o</span>nitoring</h1>
+    </div>
+    <nav>
+        <a class="nav__button" href="index.html">Metrics</a>
+        <a class="nav__button" href="info.html">Info</a>
+        <a class="nav__button" href="permissions.html">Accounts</a>
+    </nav>
+
+</header>
+<main class="main">
+    <section class="users">
+        <h2 class="users__title">User permissions</h2>
+        <table class="users__table table">
+            <thead class="table__head">
+            <tr class="table__row table__row_title">
+                <th class="table__cell table__header">Name</th>
+                <th class="table__cell table__header">Nick</th>
+                <th class="table__cell table__header">Escalation phone</th>
+                <th class="table__cell table__header">Role</th>
+            </tr>
+            </thead>
+            <tbody class="table__body"></tbody>
+        </table>
+    </section>
+    <section class="add-user">
+        <h2>Add permission</h2>
+        <form name="addUser" class="add-user__form form">
+            <input name="name" type="text" placeholder="Enter name:" class="add-user__input" />
+            <input name="nickname" type="tel" placeholder="Enter nickname:" class="add-user__input" />
+            <input name="escalation_phone" type="text" placeholder="Enter escalation phone:" class="add-user__input" />
+            <input name="permission" type="text" placeholder="Enter role:" class="add-user__input" />
+            <button type="submit" class="add-user__submit">Add</button>
+        </form>
+    </section>
+</main>
+<div class="footer-wrapper">
+    <div class="footer">
+        <p>© 2023 The Monitoring by Pesochin<sup style="font-size: 20%">TM</sup></p>
+        <div class="footer__load-time">
+            <span class="load-time"></span>
+        </div>
+        <pre class="ascii_art" >
+_/\__/\_
+        </pre>
+    </div>
+</div>
+</body>
+</html>
